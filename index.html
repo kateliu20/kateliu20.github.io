@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kateliu20.github.io personal website</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container">
+            <img src="images/facebook prof pic.jpg" class="hero-img" alt="Avatar">
+            <div class="name-text">
+                <h1> Katherine Liu</h1>
+            </div>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="about-me">
+        <div class="container">
+            <h1>About Me</h1>
+            <p class="about">Hi I am Kate Liu and I am a rising sophomore at Rutgers.</p>
+        </div>
+    </section>
+
+    <hr class="solid">
+
+    <section class="projects-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/mothers_touch.JPG" alt="Person">
+                    <p>mother's touch</p>
+                </li>
+                <li>
+                    <img src="images/mothers_touch.JPG" alt="Person">
+                    <p>ai research</p>
+                </li>
+                <li>
+                    <img src="images/mothers_touch.JPG" alt="Person">
+                    <p>clean air hero</p>
+                </li>
+                <li>
+                    <img src="images/encourage_eats.JPG" alt="Person">
+                    <p>encourage eats (hackathon winnings)</p>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <hr class="solid">
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact</h2>
+
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+    </script>
+
+</body>
+
+</html>
