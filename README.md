@@ -1,5 +1,5 @@
 # kateliu20.github.io
 
-Personal Website with HTML/CSS😊. All code can be found in the master branch.
+personal website that i'm building with html/css😊. all code can be found in the master branch.
 
-(still a work-in-progress)
+(still a work-in-progress!)
