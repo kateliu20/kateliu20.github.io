@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Presentable AI",
     description: "ElevenLabs and a16z hackathon submission. Leveraging ElevenLabs API to create a text-to-voice AI teaching lecturer.",
-    tags: ["Node.js", "React", "Vercel", "Typescript", "Firebase", "Python"],
+    tags: ["Node.js", "React", "Typescript", "Firebase", "Python"],
     link: "https://github.com/liezl200/frontend-present-ai"
   }
 ];
